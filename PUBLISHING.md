@@ -1,6 +1,6 @@
 # Panda Form 发布指南
 
-本文档提供了如何发布 Panda Form 到 npm 的详细步骤。
+本文档提供了如何发布 Pd Form 到 npm 的详细步骤。
 
 ## 发布准备
 

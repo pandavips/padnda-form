@@ -1,5 +1,5 @@
 {
-  "name": "panda-form",
+  "name": "pd-form",
   "version": "1.0.0",
   "description": "A Vue 3 component library for building forms with Element Plus.",
   "type": "module",
@@ -16,10 +16,7 @@
     "build:lib": "vue-tsc -b &&vite build --mode lib",
     "prepublish-check": "bash scripts/prepublish-check.sh",
     "publish:npm": "npm run build && npm publish",
-    "build-example-page": "vue-tsc -b && vite build --mode doc",
-    "deploy": "npm run build-example-page && bash deploy.sh",
     "preview": "vite preview",
-    "semantic-release": "semantic-release",
     "test": "vitest --watch"
   },
   "devDependencies": {

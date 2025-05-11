@@ -1,4 +1,4 @@
-# Panda Form
+# Pd Form
 
 A form generator based on Vue 3 and Element Plus, making form building simple and efficient.
 

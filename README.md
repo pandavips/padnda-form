@@ -1,5 +1,6 @@
-# Panda Form
+# Pd Form
 
+自用的一个小工具.
 基于Vue 3和Element Plus的表单生成器，让表单构建变得简单高效。
 
 [English](./README_EN.md) | 简体中文
