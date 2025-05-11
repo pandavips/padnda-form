@@ -8,7 +8,7 @@
   "types": "dist/src/core/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/panda-form"
+    "url": "https://github.com/pandavips/padnda-form"
   },
   "scripts": {
     "dev": "vite",
