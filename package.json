@@ -1,6 +1,6 @@
 {
   "name": "pd-form",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Vue 3 component library for building forms with Element Plus.",
   "type": "module",
   "main": "dist/index.umd.cjs",
@@ -8,7 +8,11 @@
   "types": "dist/src/core/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pandavips/pd-form"
+    "url": "https://github.com/pandavips/panda-form"
+  },
+  "homepage": "https://github.com/pandavips/panda-form#readme",
+  "bugs": {
+    "url": "https://github.com/pandavips/panda-form/issues"
   },
   "scripts": {
     "dev": "vite",
@@ -63,10 +67,6 @@
   },
   "author": "Panda",
   "license": "MIT",
-  "homepage": "https://github.com/pandavips/pd-form#readme",
-  "bugs": {
-    "url": "https://github.com/pandavips/pd-form/issues"
-  },
   "keywords": [
     "vue3",
     "vue-component",
