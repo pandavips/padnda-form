@@ -12,7 +12,7 @@ export interface IFormProp extends Partial<FormProps> {}
 // 表单项
 export interface IFormItemProp extends Partial<FormItemProps> {
   // 用于el-row布局的span,默认是24
-  span?: NumberRange<1, 24>;
+  span?: number;
   // 是否进行展示该项
   show?: boolean;
   // 表单项类型

@@ -16,13 +16,13 @@ English | [简体中文](./README.md)
 
 ```bash
 # npm
-npm install panda-form
+npm install pd-form
 
 # yarn
-yarn add panda-form
+yarn add pd-form
 
 # pnpm
-pnpm add panda-form
+pnpm add pd-form
 ```
 
 ## Quick Start
@@ -33,7 +33,7 @@ pnpm add panda-form
 </template>
 
 <script setup lang="ts">
-import { Form } from 'panda-form'
+import { Form } from 'pd-form'
 import { ref } from 'vue'
 
 const formData = ref({})
@@ -86,7 +86,7 @@ You can access the following properties and methods by getting the form instance
 ## Custom Components
 
 ```ts
-import { formControllerManager } from 'panda-form'
+import { formControllerManager } from 'pd-form'
 import MyComponent from './MyComponent.vue'
 
 // Register custom component

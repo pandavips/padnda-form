@@ -1,4 +1,6 @@
-# Panda Form 发布指南
+# Pd Form 发布指南
+
+本文档提供了如何发布 Pd Form 到 npm 的详细步骤。anda Form 发布指南
 
 本文档提供了如何发布 Pd Form 到 npm 的详细步骤。
 
@@ -47,13 +49,13 @@ pnpm publish:npm
 
 ```bash
 # 创建一个临时目录
-mkdir -p /tmp/test-panda-form && cd /tmp/test-panda-form
+mkdir -p /tmp/test-pd-form && cd /tmp/test-pd-form
 
 # 初始化项目
 npm init -y
 
 # 安装刚发布的包
-npm install panda-form
+npm install pd-form
 ```
 
 ## 版本更新指南
