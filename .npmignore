@@ -1,0 +1,50 @@
+# Development and build files
+node_modules/
+.github/
+.vscode/
+.idea/
+deploy.sh
+tsconfig*.json
+*.log
+vite.config.ts
+config/
+index.html
+
+# Documentation and examples
+docs/
+example/
+examples/
+public/
+assets/
+
+# Source files (since we publish the built files)
+/src/
+!/src/core/types.ts # Types should be included
+
+# Tests
+__tests__/
+tests/
+test/
+*.spec.*
+*.test.*
+vitest.config.*
+
+# Configuration files
+.eslintrc*
+.prettierrc*
+.editorconfig
+.devcontainer
+.husky/
+
+# Development environment
+.env*
+
+# Build artifacts
+coverage/
+temp/
+tmp/
+.nyc_output/
+
+# Git
+.gitignore
+.gitattributes
